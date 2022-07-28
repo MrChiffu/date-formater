@@ -12,6 +12,7 @@ Exemple
 Pour cela vous devrez :
 - Créer une api en symfony qui devra répondre à la demande suivante: `GET /api/date-formater/arab-to-roman?date={date}`
 - Puis dans un second temps vous créerez une application cliente Angular vous permettant de consommer votre api.
+
 ![image](https://user-images.githubusercontent.com/85277531/181453621-3b6961a7-c679-4f45-bf3d-2308b6e4522b.png)
 ![image](https://user-images.githubusercontent.com/85277531/181453759-6abd0963-e964-49dc-8871-d4c0fad2b02d.png)
 
