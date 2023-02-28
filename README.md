@@ -29,7 +29,7 @@ composer create-project symfony/skeleton:"^5.4" date-formater-api
 
 ### Création projet Angular
 Pré-requis:
-- Avoir *Node.js* d'installé en version 16.16.0 (LTS)
+- Avoir *Node.js* d'installé en version LTS
 - Installer l'outil de ligne de commande Angular
 ```
 npm install -g @angular/cli
