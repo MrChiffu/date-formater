@@ -24,7 +24,7 @@ Pré-requis:
 
 Pour créer le projet
 ```
-composer create-project symfony/skeleton:"^5.4" date-formater-api
+composer create-project symfony/skeleton:"^6.1" date-formater-api
 ```
 
 ### Création projet Angular
