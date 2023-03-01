@@ -10,7 +10,7 @@ use App\Entity\TranslateDate;
 
 class TranslateDateController extends AbstractController
 {
-    #[Route('/api', name: 'translate date', methods: "GET")]
+    #[Route('//api/date-formater/arab-to-roman?date={date}', name: 'translate date', methods: "GET")]
 
     public function ChangeDate(Request $request)
     {
