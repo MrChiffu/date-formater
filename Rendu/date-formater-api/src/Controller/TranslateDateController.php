@@ -17,3 +17,8 @@ class TranslateDateController extends AbstractController
        return $this->json([new TranslateDate('2023-03-12')]);
     }
 }
+
+/**
+ * Doit récupérer les infos de l'Angular et les renvoie une fois traités
+ * Comment on fait ?
+ */

@@ -16,7 +16,7 @@ class TranslateDate
         $this->date = $date;
     }
 
-    public function getTranslateDate()
+    public function getDate()
     {
         return $this->date;
     }
@@ -28,6 +28,7 @@ class TranslateDate
     }
 
     /**
+     * fonction TranslateDate
      * Algo pour traduire de l'arabe au romain :
      * On fait un tableau associatif pour chaque chiffre romain avec le chiffre arabe qui correspond
      * Pour les jours, mois et années même démarche -> 
