@@ -1,5 +1,5 @@
 <h1>Transform Date Arab Number to Roman Number</h1>
 <form action="#" method="get">
-  <input type="date" name="date" id="date">
-  <input type="submit" value="Translate">
+  <input type="date" name="date" id="date" (change)="getDate($event)">
+  <input type="submit" value="Translate" (click)="sendAndDispDate()">
 </form>
